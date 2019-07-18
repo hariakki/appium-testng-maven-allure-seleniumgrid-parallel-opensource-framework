@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--<suite name="Menelic Mobile Tests" verbose="1" parallel="tests" thread-count="5">-->
+<suite name="Menelic Mobile Tests" verbose="1">
+
+    <listeners>
+        <listener class-name="com.menelic.utils.TestListener"/>
+    </listeners>
+
+    <test name="Android Test Suite" verbose="4">
+        <parameter name="platformName" value="Android"/>
+        <parameter name="platformVersion" value="9"/>
+        <parameter name="deviceName" value="Pixel_3_API_28_Android_9.0"/>
+        <classes>
+            <class name="com.menelic.mobiletests.InitialTest"/>
+        </classes>
+    </test>
+<!--    <test name="iOS Test Suite" verbose="4">-->
+<!--        <parameter name="platformName" value="iOS"/>-->
+<!--        <parameter name="platformVersion" value="12.2"/>-->
+<!--        <parameter name="deviceName" value="iPhone 7"/>-->
+<!--        <classes>-->
+<!--            <class name="com.menelicelic.mobiletests.InitialTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+</suite>

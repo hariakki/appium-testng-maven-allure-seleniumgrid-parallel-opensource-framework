@@ -1,0 +1,24 @@
+{  
+   "capabilities":[  
+      {  
+         "deviceName":"iPhone 7",
+         "platformName":"iOS",
+         "browserName":"iPhone-7-iOS-12.2",
+         "platformVersion":"12.2",
+         "maxInstances":1
+      }
+   ],
+   "configuration":{  
+      "cleanUpCycle":2000,
+      "timeout":30000,
+      "proxy":"org.openqa.grid.selenium.proxy.DefaultRemoteProxy",
+      "url":"http://127.0.0.1:5000/wd/hub",
+      "host":"127.0.0.1",
+      "port":5002,
+      "maxSession":1,
+      "register":true,
+      "registerCycle":5000,
+      "hubPort":"4444",
+      "hubHost":"127.0.0.1"
+   }
+}
