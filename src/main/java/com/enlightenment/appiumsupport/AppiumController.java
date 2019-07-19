@@ -1,4 +1,4 @@
-package com.menelic.appiumsupport;
+package com.enlightenment.appiumsupport;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
@@ -54,8 +54,8 @@ public class AppiumController {
                 capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, platformVersion);
                 capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, deviceName);
                 capabilities.setCapability(MobileCapabilityType.APP, absoluteAndroidAppPath);
-                capabilities.setCapability("appPackage", "com.menelic.visitor");
-                capabilities.setCapability("appActivity", "com.menelic.visitor.MainActivity");
+                capabilities.setCapability("appPackage", "com.enlightenment.visitor");
+                capabilities.setCapability("appActivity", "com.enlightenment.visitor.MainActivity");
                 capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UiAutomator2");
                 capabilities.setCapability("autoDismissAlerts", true);
                 capabilities.setCapability("fullReset", true);

@@ -4,7 +4,7 @@
 <suite name="Menelic Mobile Tests" verbose="1">
 
     <listeners>
-        <listener class-name="com.menelic.utils.TestListener"/>
+        <listener class-name="com.enlightenment.utils.TestListener"/>
     </listeners>
 
     <test name="Android Test Suite" verbose="4">
@@ -12,7 +12,7 @@
         <parameter name="platformVersion" value="9"/>
         <parameter name="deviceName" value="Pixel_3_API_28_Android_9.0"/>
         <classes>
-            <class name="com.menelic.mobiletests.InitialTest"/>
+            <class name="com.enlightenment.mobiletests.InitialTest"/>
         </classes>
     </test>
     <test name="iOS Test Suite" verbose="4">
@@ -20,7 +20,7 @@
         <parameter name="platformVersion" value="12.2"/>
         <parameter name="deviceName" value="iPhone 7"/>
         <classes>
-            <class name="com.menelic.mobiletests.InitialTest"/>
+            <class name="com.enlightenment.mobiletests.InitialTest"/>
         </classes>
     </test>
 

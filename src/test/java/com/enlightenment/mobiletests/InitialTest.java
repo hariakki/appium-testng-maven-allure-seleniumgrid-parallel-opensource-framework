@@ -1,15 +1,15 @@
-package com.menelic.mobiletests;
+package com.enlightenment.mobiletests;
 
-import com.menelic.data.User;
-import com.menelic.utils.CommonActions;
+import com.enlightenment.data.User;
+import com.enlightenment.utils.CommonActions;
 import io.qameta.allure.Description;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Story;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import static com.menelic.teststeps.LoginSteps.and_user_clicks_on_emailed_magic_link;
-import static com.menelic.teststeps.LoginSteps.given_user_logs_in_as;
+import static com.enlightenment.teststeps.LoginSteps.and_user_clicks_on_emailed_magic_link;
+import static com.enlightenment.teststeps.LoginSteps.given_user_logs_in_as;
 
 public class InitialTest extends BaseTest {
 

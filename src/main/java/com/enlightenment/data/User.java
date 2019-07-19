@@ -1,9 +1,9 @@
-package com.menelic.data;
+package com.enlightenment.data;
 
 public enum User {
 
     JUST_ONBOARDED(
-            "test.menelic@menelic.io"
+            "test.enlightenment@enlightenment.io"
     ),
 
     PASSED_COOLING_OFFD(

@@ -1,4 +1,4 @@
-package com.menelic.utils;
+package com.enlightenment.utils;
 
 import java.io.File;
 

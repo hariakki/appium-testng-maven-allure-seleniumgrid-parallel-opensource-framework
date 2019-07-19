@@ -1,4 +1,4 @@
-package com.menelic.pageobjects;
+package com.enlightenment.pageobjects;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.TouchAction;
@@ -10,7 +10,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import java.util.concurrent.TimeUnit;
 
-import static com.menelic.utils.Config.*;
+import static com.enlightenment.utils.Config.*;
 
 
 public class BasePage {

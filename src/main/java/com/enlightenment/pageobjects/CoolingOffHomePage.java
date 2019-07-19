@@ -1,4 +1,4 @@
-package com.menelic.pageobjects;
+package com.enlightenment.pageobjects;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;

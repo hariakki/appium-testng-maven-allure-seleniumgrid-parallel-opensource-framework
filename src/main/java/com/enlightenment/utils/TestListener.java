@@ -1,10 +1,10 @@
-package com.menelic.utils;
+package com.enlightenment.utils;
 
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
-import static com.menelic.utils.ScreenShot.takeScreenShot;
+import static com.enlightenment.utils.ScreenShot.takeScreenShot;
 
 public class TestListener implements ITestListener {
 

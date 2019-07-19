@@ -1,10 +1,10 @@
-package com.menelic.teststeps;
+package com.enlightenment.teststeps;
 
-import com.menelic.appiumsupport.AppiumController;
-import com.menelic.data.User;
-import com.menelic.pageobjects.LoginScreenPage;
-import com.menelic.pageobjects.RegisteredHomePage;
-import com.menelic.utils.CommonActions;
+import com.enlightenment.appiumsupport.AppiumController;
+import com.enlightenment.data.User;
+import com.enlightenment.pageobjects.LoginScreenPage;
+import com.enlightenment.pageobjects.RegisteredHomePage;
+import com.enlightenment.utils.CommonActions;
 import io.appium.java_client.AppiumDriver;
 import org.openqa.selenium.JavascriptExecutor;
 

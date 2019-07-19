@@ -1,7 +1,7 @@
-package com.menelic.mobiletests;
+package com.enlightenment.mobiletests;
 
-import com.menelic.appiumsupport.AppiumBaseClass;
-import com.menelic.appiumsupport.AppiumController;
+import com.enlightenment.appiumsupport.AppiumBaseClass;
+import com.enlightenment.appiumsupport.AppiumController;
 import io.appium.java_client.AppiumDriver;
 import lombok.Getter;
 import lombok.Setter;

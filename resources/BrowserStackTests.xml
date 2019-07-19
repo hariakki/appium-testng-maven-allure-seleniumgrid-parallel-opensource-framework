@@ -4,7 +4,7 @@
 <suite name="Menelic Mobile Tests" verbose="1">
 
     <listeners>
-        <listener class-name="com.menelic.utils.TestListener"/>
+        <listener class-name="com.enlightenment.utils.TestListener"/>
     </listeners>
 
 
@@ -13,7 +13,7 @@
         <parameter name="platformVersion" value="11"/>
         <parameter name="deviceName" value="iPhone 8 Plus"/>
         <classes>
-            <class name="com.menelic.mobiletests.InitialTest"/>
+            <class name="com.enlightenment.mobiletests.InitialTest"/>
         </classes>
     </test>
 
@@ -22,7 +22,7 @@
         <parameter name="platformVersion" value="12"/>
         <parameter name="deviceName" value="iPhone XS"/>
         <classes>
-            <class name="com.menelic.mobiletests.InitialTest"/>
+            <class name="com.enlightenment.mobiletests.InitialTest"/>
         </classes>
     </test>
 </suite>

@@ -1,4 +1,4 @@
-package com.menelic.utils;
+package com.enlightenment.utils;
 
 import io.appium.java_client.MobileElement;
 import org.openqa.selenium.By;

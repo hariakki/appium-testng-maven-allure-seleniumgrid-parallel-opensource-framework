@@ -1,6 +1,6 @@
-package com.menelic.utils;
+package com.enlightenment.utils;
 
-import com.menelic.appiumsupport.AppiumController;
+import com.enlightenment.appiumsupport.AppiumController;
 import io.appium.java_client.MobileElement;
 import org.openqa.selenium.By;
 import org.openqa.selenium.TimeoutException;

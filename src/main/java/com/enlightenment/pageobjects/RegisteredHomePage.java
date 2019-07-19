@@ -1,4 +1,4 @@
-package com.menelic.pageobjects;
+package com.enlightenment.pageobjects;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
@@ -6,7 +6,7 @@ import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.iOSFindBy;
 import org.openqa.selenium.By;
 
-import static com.menelic.utils.CommonActions.getByFromElement;
+import static com.enlightenment.utils.CommonActions.getByFromElement;
 
 public class RegisteredHomePage extends BasePage {
 

@@ -1,6 +1,6 @@
-package com.menelic.utils;
+package com.enlightenment.utils;
 
-import com.menelic.appiumsupport.AppiumController;
+import com.enlightenment.appiumsupport.AppiumController;
 import org.apache.commons.lang3.ArrayUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -8,8 +8,8 @@ import org.openqa.selenium.TakesScreenshot;
 import java.io.File;
 import java.io.FileOutputStream;
 
-import static com.menelic.utils.FileHelpers.createPath;
-import static com.menelic.utils.FileHelpers.fileExists;
+import static com.enlightenment.utils.FileHelpers.createPath;
+import static com.enlightenment.utils.FileHelpers.fileExists;
 import static org.testng.Reporter.getCurrentTestResult;
 
 /**

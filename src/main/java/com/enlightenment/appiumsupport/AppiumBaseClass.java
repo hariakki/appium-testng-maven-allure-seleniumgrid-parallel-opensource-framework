@@ -1,4 +1,4 @@
-package com.menelic.appiumsupport;
+package com.enlightenment.appiumsupport;
 
 import io.appium.java_client.AppiumDriver;
 
