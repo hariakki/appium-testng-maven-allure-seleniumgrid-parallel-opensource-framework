@@ -43,9 +43,9 @@ public class LoginSteps {
             CommonActions.pauseTest(12);
 
 
-            HashMap<String, String> rapAppBundleId = new HashMap<>();
-            rapAppBundleId.put("bundleId", "com.edfenergy.rapmobile.dev");
-            js.executeScript("mobile: launchApp", rapAppBundleId);
+            HashMap<String, String> appBundleId = new HashMap<>();
+            appBundleId.put("bundleId", "com.wdiodemoapp");
+            js.executeScript("mobile: launchApp", appBundleId);
 
             RegisteredHomePage registeredHomePage = new RegisteredHomePage(driver);
             registeredHomePage.clickOnReadingButton();

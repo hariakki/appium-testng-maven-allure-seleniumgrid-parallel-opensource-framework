@@ -54,8 +54,8 @@ public class AppiumController {
                 capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, platformVersion);
                 capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, deviceName);
                 capabilities.setCapability(MobileCapabilityType.APP, absoluteAndroidAppPath);
-                capabilities.setCapability("appPackage", "com.enlightenment.visitor");
-                capabilities.setCapability("appActivity", "com.enlightenment.visitor.MainActivity");
+                capabilities.setCapability("appPackage", "com.wdiodemoapp");
+                capabilities.setCapability("appActivity", "com.wdiodemoapp.MainActivity");
                 capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UiAutomator2");
                 capabilities.setCapability("autoDismissAlerts", true);
                 capabilities.setCapability("fullReset", true);
@@ -70,7 +70,7 @@ public class AppiumController {
                 capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, platformVersion);
                 capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, deviceName);
                 capabilities.setCapability(MobileCapabilityType.APP, absoluteIOSAppPath);
-                capabilities.setCapability("bundleId", "com.edfenergy.rapmobile.dev");
+                capabilities.setCapability("bundleId", "com.wdiodemoapp");
                 capabilities.setCapability("udid", "E52560B2-59DD-4167-80FB-055CA21C7215");
                 capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "XCUITest");
                 capabilities.setCapability("useNewWDA", true);
@@ -88,8 +88,8 @@ public class AppiumController {
                 capabilities.setCapability("platformName", platformName);
                 capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, platformVersion);
                 capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, deviceName);
-                capabilities.setCapability(MobileCapabilityType.APP, "/Users/financefree/Desktop/Contino/Appium/Dev.ipa");
-                capabilities.setCapability("bundleId", "com.edfenergy.rapmobile.dev");
+                capabilities.setCapability(MobileCapabilityType.APP, "/Users/Desktop/Dev.ipa");
+                capabilities.setCapability("bundleId", "com.wdiodemoapp");
                 capabilities.setCapability("udid", "4a25e27c87e588bd02fe9f10d52e557db8886fbe");
                 capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "XCUITest");
 
@@ -114,8 +114,8 @@ public class AppiumController {
                 capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, platformVersion);
                 capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, deviceName);
                 capabilities.setCapability(MobileCapabilityType.APP, "bs://75eef9eedb1b3796b5c360f560369a7439f4f004");
-                capabilities.setCapability("appPackage", "com.edfenergy.rapmobile.dev");
-                capabilities.setCapability("appActivity", "com.edfenergy.rapmobile.MainActivity");
+                capabilities.setCapability("appPackage", "com.wdiodemoapp");
+                capabilities.setCapability("appActivity", "com.wdiodemoapp.MainActivity");
                 capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UiAutomator2");
                 capabilities.setCapability("autoDismissAlerts", true);
                 capabilities.setCapability("fullReset", true);
@@ -130,7 +130,7 @@ public class AppiumController {
                 capabilities.setCapability("realMobile", "true");
                 capabilities.setCapability("os_version", platformVersion);
                 capabilities.setCapability(MobileCapabilityType.APP, "bs://a0e690d33d965d4dd3dfc5a9fa576035c19fa736");
-                capabilities.setCapability("bundleId", "com.edfenergy.rapmobile.dev");
+                capabilities.setCapability("bundleId", "com.wdiodemoapp");
                 capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "XCUITest");
                 capabilities.setCapability("useNewWDA", true);
                 capabilities.setCapability("waitForQuiescence", false);

@@ -3,5 +3,4 @@
 .allure
 /resources/app/ios/.DS_Store
 /src/.DS_Store
-/src/main/java/com/rap/.DS_Store
 *.DS_Store*
