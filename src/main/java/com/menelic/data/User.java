@@ -3,14 +3,10 @@ package com.menelic.data;
 public enum User {
 
     JUST_ONBOARDED(
-            "test.contino@contino.io"
+            "test.menelic@menelic.io"
     ),
 
-    PASSED_COOLING_OFF_PERIOD_NO_READINGS_SUBMITTED(
-            "cooled.off@email.com"
-    ),
-
-    ONBOARDED_WITH_2_SUBMITTED_READINGS(
+    PASSED_COOLING_OFFD(
             "cooled.off@email.com"
     );
 

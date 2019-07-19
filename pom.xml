@@ -151,12 +151,16 @@
                 <suiteXmlFile>${resourcesFolder}/SimulatorTests.xml</suiteXmlFile>
             </properties>
         </profile>
-    </profiles>
-    <profiles>
         <profile>
-            <id>simulatorTests</id>
+            <id>realDeviceTests</id>
             <properties>
                 <suiteXmlFile>${resourcesFolder}/RealDeviceTests.xml</suiteXmlFile>
+            </properties>
+        </profile>
+        <profile>
+            <id>browserStackTests</id>
+            <properties>
+                <suiteXmlFile>${resourcesFolder}/BrowserStackTests.xml</suiteXmlFile>
             </properties>
         </profile>
     </profiles>

@@ -25,10 +25,10 @@ public class AppiumController {
             return;
         }
 
-        File androidApp = new File("resources/app/android/Menelic Visitor Management_v2.3.2_apkpure.com.apk");
+        File androidApp = new File("resources/app/android/Android-NativeDemoApp-0.2.1.apk");
         String absoluteAndroidAppPath = androidApp.getAbsolutePath();
 
-        File iOSApp = new File("resources/app/android/Menelic Visitor Management_v2.3.2_apkpure.com.apk");
+        File iOSApp = new File("resources/app/ios/iOS-Simulator-NativeDemoApp-0.2.1.app");
         String absoluteIOSAppPath = iOSApp.getAbsolutePath();
 
         String userName = "menci1";
