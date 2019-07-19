@@ -71,7 +71,10 @@ public class AppiumController {
                 capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, deviceName);
                 capabilities.setCapability(MobileCapabilityType.APP, absoluteIOSAppPath);
                 capabilities.setCapability("bundleId", "com.wdiodemoapp");
-                capabilities.setCapability("udid", "E52560B2-59DD-4167-80FB-055CA21C7215");
+//                capabilities.setCapability("udid", "E52560B2-59DD-4167-80FB-055CA21C7215");
+                capabilities.setCapability("udid", "391D33FD-4EAA-413E-8829-47F77DFAE7B7");
+
+
                 capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "XCUITest");
                 capabilities.setCapability("useNewWDA", true);
                 capabilities.setCapability("waitForQuiescence", false);
