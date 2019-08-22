@@ -48,6 +48,10 @@ public class AppiumController {
          * driver = new IOSDriver(new URL("https://"+userName+":"+accessKey+"@hub-cloud.browserstack.com/wd/hub"), capabilities);
          */
         switch (platformName.toLowerCase()) {
+
+            /*
+            Make sure your appPackage and appActivity is correct for the app you are testing
+             */
             case "android":
 
                 capabilities.setCapability("platformName", platformName);
@@ -64,16 +68,19 @@ public class AppiumController {
                 driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
 //                driver = new AndroidDriver(new URL("http://127.0.0.1:4444/wd/hub"), capabilities);
                 break;
+
+                /*
+                1. Make sure your bundleId is the correct one for the app you have installed under test
+                2. Make sure udid is the correct number for the Xcode virtual machine
+                 */
             case "ios":
 
                 capabilities.setCapability("platformName", platformName);
                 capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, platformVersion);
                 capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, deviceName);
                 capabilities.setCapability(MobileCapabilityType.APP, absoluteIOSAppPath);
-                capabilities.setCapability("bundleId", "com.wdiodemoapp");
-//                capabilities.setCapability("udid", "E52560B2-59DD-4167-80FB-055CA21C7215");
-                capabilities.setCapability("udid", "391D33FD-4EAA-413E-8829-47F77DFAE7B7");
-
+                capabilities.setCapability("bundleId", "org.reactjs.native.example.wdioDemoApp");
+                capabilities.setCapability("udid", "7E2C031E-5CFC-4D24-93D9-23E754C78049");
 
                 capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "XCUITest");
                 capabilities.setCapability("useNewWDA", true);
